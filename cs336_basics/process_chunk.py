@@ -2,7 +2,6 @@ import regex as re
 import multiprocessing
 import os
 from typing import BinaryIO
-import find_chunk_boundaries
 
 def process_chunk(
     file_path : str,
