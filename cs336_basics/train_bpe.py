@@ -2,8 +2,8 @@ import regex as re
 import multiprocessing
 import os
 from typing import BinaryIO
-from .find_chunk_boundaries import find_chunk_boundaries
-from .process_chunk import process_chunk
+from cs336_basics.find_chunk_boundaries import find_chunk_boundaries
+from cs336_basics.process_chunk import process_chunk
 
 
 def train_bpe(
